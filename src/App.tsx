@@ -35,7 +35,7 @@ function App() {
               <OrderTotals order={order} tip={tip} placeOrder={placeOrder} />
             </>
           ) : (
-            <p className="text-center">La orden esta vacia</p>
+            <p className="text-center">La orden esta vacia - Agregar items</p>
           )}
         </div>
       </main>
